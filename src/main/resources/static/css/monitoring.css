@@ -1,0 +1,62 @@
+﻿
+/*监控*/
+.warpJK{width:100%;margin:0 auto;overflow:hidden;}
+.jkBG{ background:#fff}
+.topNav-jk{font-size:16px;color:#537ac8;margin-bottom:15px;margin-top:10px;}
+.icondiv{width:20%;height:98px;margin:0px 0 5px 0px;float:left;}
+.icondiv .img01,.icondiv .img02,.icondiv .img03,.icondiv .img04,.icondiv .img05,.icondiv .img06{margin:5px 15px 0 20px;width:66px;height:76px;background:url(../../images/menu-ico.png) -6px -132px;float:left;}
+.icondiv .img02{background:url(../../images/menu-ico.png) -87px -132px;}
+.icondiv .img03{background:url(../../images/menu-ico.png) -167px -132px;}
+.icondiv .img04{background:url(../../images/menu-ico.png) -248px -132px;}
+.icondiv .img05{background:url(../../images/menu-ico.png) -330px -132px;}
+.icondiv .img06{background:url(../../images/menu-ico.png) -359px -132px;}
+.icondiv h3{font-size:26px;color:#333;margin-top: 13px;font-weight:normal;}
+.icondiv h3.color_red{color:#e23435}
+.icondiv h3 font{font-size:18px;color:#7f8fa4;position: relative;top: -4px;left: 5px;}
+.icondiv span{font-size:16px;color:#7f8fa4;display:block;}
+.public_cont{background:#fff;border:1px solid #dadada;margin-bottom:15px;float:left;}
+.tit_jk{height:43px;border-bottom:1px solid #dadada;line-height:43px;position:relative;color:#fff;margin-top:0;margin-bottom:15px;border-top: 3px solid #e3e4e6;background:#f8f9fb}
+.tit_jk b{font-size:16px;position:relative;top:-5px;font-weight:normal;color:#3a7ad1}
+.tit_jk .imgfengji,.tit_jk .imgdeng,.tit_jk .imganfang,.tit_jk .imgshipin,.tit_jk .imgxiaofang,.tit_jk .imghuanjing,.tit_jk .imgquxian{background:url(../../images/titTBicon.png) no-repeat;width:21px;height:21px;display:inline-block;margin:5px 10px 0 15px;}
+/*.tit_jk .imgdeng{background:url(../../images/menu-ico.png) -53px -213px;}
+.tit_jk .imganfang{background:url(../../images/menu-ico.png) -98px -213px;}
+.tit_jk .imgshipin{background:url(../../images/menu-ico.png) -143px -213px;}
+.tit_jk .imgquxian{background:url(../../images/menu-ico.png) -187px -213px;}
+.tit_jk .imghuanjing{background:url(../../images/menu-ico.png) -231px -213px;}
+.tit_jk .imgxiaofang{background:url(../../images/menu-ico.png) -275px -213px;}*/
+.tit_jk span{position:absolute;top:0px;right:20px;font-size:15px;color:#7f8fa4;}
+.tit_jk span i{margin-left:10px;}
+.shebei{position:relative;}
+.fengjiMain{width:45%;border:1px solid #e3e4e6;margin:0 0 15px 3.5%;float:left;text-align:center;color:#333;overflow:hidden}
+.fengjiMain02{width:95%;border:none;text-align:left;overflow:hidden;padding-left: 5%;margin:0;height:180px;}
+.fengjiMain02 .contain{overflow: hidden; display: inline-block;width:19.3%;height:180px;}
+
+.fengjiMain .contain img,.fengjiMain .contain ul{display:block;float:left;margin-top: 35px;margin-left:0;overflow:hidden;}
+.fengjiMain .contain img{margin-top:45px;}
+.fengjiMain .contain img.jiantou{margin-top:39px;margin:39px 0 0 15px}
+.fengjiMain img{margin:15px;}
+.fengjiMain .fa-toggle-on,.fengjiMain .fa-toggle-off {font-size:25px;margin-right: 5px;vertical-align: sub;}
+.fengjiMain .fa-plus-square,.fengjiMain .fa-minus-square{font-size:24px;margin-right:5px;}
+.fengjiMain li{border-bottom:1px solid #e3e4e6;padding:8px 0}
+.fengjiMain02 li{border:none;padding:2px 0 0;text-align:left;}
+.public_cont .main{margin:0 15px 15px 20px;}
+.public_cont  .tb2{border:none;}  
+.public_cont  .tb2 td,.public_cont  .tb2 th{border-left:none;border-right:none;border-top:none;border-color:#e3e4e6;color:#333;}
+.tb2.anfang i{margin-left:5px;}
+.shipinMain{width:86%;overflow:hidden;text-align:center;height: 200px;vertical-align: middle;display: block;margin:15px auto;}
+
+
+.shebei a{color:#2096ef;margin:34px 0 0 15px}
+.movie{width:44%;float:left;overflow:hidden;margin-left:4%;}
+.movie img{width:100%;max-width:243px;}
+.movie h4{font-size:13px;margin-top:5px;padding:0;color:#333;}
+.shipin{position:relative;overflow:hidden;}
+.shipin .fa{font-size:32px;color:#2096ef}
+.shipin .fa-arrow-circle-o-left{position: absolute;top: 80px;left: 25px;}
+.shipin .fa-arrow-circle-o-right{position: absolute;top: 80px;right: 25px;}
+.shebei .fa-arrow-circle-o-left{font-size:36px;position:absolute;left:15px;top:120px;}
+.shebei .fa-arrow-circle-o-right{font-size:36px;position:absolute;right:15px;top:120px;}
+.fa-minus-square{color:#fff}
+.fa-plus-square{color:#2096ef}
+.fa-toggle-on{color:#45c451}
+.fa-toggle-off{color:#c9c9ce}

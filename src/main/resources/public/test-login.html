@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+	<link rel="icon" href="favicon.ico" type="/image/x-icon" />
+    <script type="text/javascript" src="/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <div class="sy-login-top">
+            <div class="sy-login-container">
+                <a href="http://bossun123.cn.trustexporter.com/" target="_blank"><img src="images/logo.jpg" /></a>
+            </div>
+        </div>
+        <div class="sy-login-main">
+            <div class="sy-img-bg">
+                <img src="images/img.png" alt="" />
+            </div>
+            <div class="login-panle">
+                <div class="login-panle-header">用户登录</div>
+                <div class="login-panle-cont">
+                    <form action="/login/test" method="POST" autocomplete="off" class="form">
+                        <div class="sy-input">
+                            <input type="text" name="username" placeholder="用户名" autocomplete="off" class="userName"/>
+<!--                             <div class="userNameError"><span th:if="${param.error}" th:text="${session.SPRING_SECURITY_LAST_EXCEPTION.localizedMessage}"></span></div> -->
+                        </div>
+                        <div class="sy-input">
+                            <input type="password" name="password" placeholder="密码" autocomplete="new-password" class="password" />
+<!--                             <div class="passwordError"></div> -->
+                        </div>
+<!--                         <div class="sy-pass"> -->
+<!--                             <label for="remPass" class="fontBlue"><input type="checkbox" name="" id="remPass" />记住密码</label> -->
+<!--                             <span class="fogPass">忘记密码？</span> -->
+<!--                         </div> -->
+                        <input type="submit" value="登录" class="submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="sy-login-foot">
+            <div class="sy-login-container">版权所有：<a href="http://bossun123.cn.trustexporter.com/" target="_blank">西安博深安全科技股份有限公司</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

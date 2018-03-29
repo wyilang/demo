@@ -1,0 +1,154 @@
+@charset "utf-8";
+body, div, img, input {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+
+input[checked] {
+    vertical-align: middle;
+}
+
+.sy-login-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 720px;
+    height: 89px;
+    background: #F6F7FB;
+
+}
+
+.sy-login-main {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-width: 720px;
+    background-size: 100% 100%;
+    background: url("../images/foot.png") left bottom repeat-x #4489FE;
+}
+
+.sy-img-bg {
+    position: absolute;
+    left: 224px;
+    top: 96px;
+    bottom: 233px;
+}
+
+.sy-img-bg img {
+    height: 100%;
+    min-height: 400px;
+}
+
+.sy-login-foot {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-width: 720px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center
+}
+
+.sy-login-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sy-login-top a, .sy-login-top a:hover, .sy-login-top a:active {
+	color: transparent;
+}
+
+.sy-login-foot a, .sy-login-foot a:hover, .sy-login-foot a:active {
+	color: #000;
+	text-decoration: none;
+}
+
+.login-panle {
+    width: 310px;
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    background: #FCFCFC;
+    padding: 30px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #333;
+}
+
+.login-panle-header {
+    font-size: 22px;
+    line-height: 30px;
+    color: #148FC4;
+}
+
+.login-panle-cont {
+    margin: 20px auto 0;
+}
+
+.sy-input {
+}
+
+.sy-input input {
+    width: 96%;
+    padding: 0 5px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+}
+
+.userNameError, .passwordError {
+    line-height: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    color: #FE5F4D;
+}
+
+.sy-pass {
+    overflow: hidden;
+    margin-top: -10px;
+    line-height: 26px;
+	padding-bottom: 10px;
+}
+
+.sy-pass label {
+    float: left;
+    width: 50%;
+}
+
+.sy-pass label + label {
+    text-align: right;
+}
+
+input.submit {
+    background: #148FC4;
+    width: 100%;
+    height: 48px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.error {
+    border-color: red;
+}
+
+.fontBlue {
+    color: #148FC4;
+}
+
+#remPass {
+	vertical-align: middle;
+}

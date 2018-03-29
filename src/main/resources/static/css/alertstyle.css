@@ -1,0 +1,126 @@
+body,html{
+  	font-family: "Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 400;
+}
+.main{
+	width: 800px;
+	overflow: hidden;
+	margin: 100px auto;
+	text-align: center;
+	font-size: 14px;
+}
+.main h2{
+	font-size: 18px;
+}
+.input-inner{
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    display: inline-block;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    padding: 0 15px;
+    width: 218px;
+}
+.input-button{
+	display: inline-block;
+    line-height: 1;
+    width: 120px;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    border-color: #dcdfe6;
+    color: #606266;
+    text-align: center;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.input-button:hover{
+	opacity: .8;
+}
+.input-button-blue{
+	color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+}
+.main p{
+	text-align: right;
+	padding-right: 99px;
+}
+
+.main-left{
+	width: 120px;
+	display: inline-block;
+	float: left;
+}
+.main-right{
+	overflow: hidden;
+	display: inline-block
+	float: left;
+}
+.main-right .switch-core{
+	margin: 0;
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    font-size: 12px;
+    border: 1px solid #dcdfe6;
+    outline: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #dcdfe6;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.main-right .core-open{
+    border-color: #13ce66;
+    background-color: #13ce66;
+    color: #fff;
+    text-indent: 14px;
+}
+.main-right .core-close{
+	border-color: #dcdfe6;
+	background-color: #dcdfe6;
+	color: #999;
+	text-indent: -14px;
+}
+.main-right .switch-button{
+	position: absolute;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+}
+.main-right .switch-open{
+	top: 1px;
+    left: 1px;
+}
+.main-right .switch-close{
+	top: 1px;
+    right: 1px;
+}
+.main-right .row{
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.main-right .flag{
+	width: 140px;
+	overflow: hidden;
+	float: left;
+}
+.main-right .flag-txt{
+	width: 85px;
+	text-align: right;
+	padding-right: 5px;
+	display: inline-block;
+}
